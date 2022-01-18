@@ -1,0 +1,44 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --primary-bg-color: #e5e5e5;
+}
+
+/* кнопки фильтра */
+.nav-button {
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+.nav-button:focus,
+.nav-button:hover {
+  background-color: var(--accent-text-color);
+  color: #ffffff;
+}
+
+/* примеры */
+.example {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.87;
+}
